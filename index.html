@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Table</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#pricing">Skip to pricing</a>
+
+    <header class="site-header">
+      <div class="container">
+        <p class="eyebrow">Pricing Table</p>
+        <h1 class="title">Pick a plan that fits your goals</h1>
+        <p class="subtitle">
+          Bright, clean, and responsive pricing cards built with vanilla HTML & CSS.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+        <div class="container">
+          <h2 id="pricing-title" class="section-title">Plans</h2>
+
+          <div class="grid" role="list">
+            <!-- Plan 1 -->
+            <article class="card" role="listitem" aria-label="Starter plan">
+              <div class="card-top">
+                <h3 class="plan">Starter</h3>
+                <p class="plan-desc">For personal projects and practice.</p>
+
+                <div class="price">
+                  <span class="currency" aria-hidden="true">$</span>
+                  <span class="amount">0</span>
+                  <span class="period">/mo</span>
+                </div>
+              </div>
+
+              <ul class="features">
+                <li>1 project</li>
+                <li>Basic components</li>
+                <li>Email support</li>
+                <li>Community access</li>
+              </ul>
+
+              <a class="btn btn-outline" href="#" aria-label="Choose Starter plan">Choose Starter</a>
+              <p class="fineprint">No credit card required</p>
+            </article>
+
+            <!-- Plan 2 -->
+            <article class="card" role="listitem" aria-label="Basic plan">
+              <div class="card-top">
+                <h3 class="plan">Basic</h3>
+                <p class="plan-desc">For simple business and portfolio sites.</p>
+
+                <div class="price">
+                  <span class="currency" aria-hidden="true">$</span>
+                  <span class="amount">9</span>
+                  <span class="period">/mo</span>
+                </div>
+              </div>
+
+              <ul class="features">
+                <li>10 projects</li>
+                <li>Reusable sections</li>
+                <li>Priority email support</li>
+                <li>Basic analytics</li>
+              </ul>
+
+              <a class="btn" href="#" aria-label="Choose Basic plan">Choose Basic</a>
+              <p class="fineprint">Cancel anytime</p>
+            </article>
+
+            <!-- Plan 3 (Most Popular) -->
+            <article class="card card-featured" role="listitem" aria-label="Pro plan">
+              <span class="badge" aria-label="Most popular">Most Popular</span>
+
+              <div class="card-top">
+                <h3 class="plan">Pro</h3>
+                <p class="plan-desc">For serious learners and creators.</p>
+
+                <div class="price">
+                  <span class="currency" aria-hidden="true">$</span>
+                  <span class="amount">19</span>
+                  <span class="period">/mo</span>
+                </div>
+              </div>
+
+              <ul class="features">
+                <li>Unlimited projects</li>
+                <li>Premium components</li>
+                <li>Priority support</li>
+                <li>Advanced analytics</li>
+                <li>Custom domains</li>
+              </ul>
+
+              <a class="btn btn-strong" href="#" aria-label="Choose Pro plan">Choose Pro</a>
+              <p class="fineprint">Best value for growth</p>
+            </article>
+
+            <!-- Plan 4 -->
+            <article class="card" role="listitem" aria-label="Team plan">
+              <div class="card-top">
+                <h3 class="plan">Team</h3>
+                <p class="plan-desc">For teams shipping multiple products.</p>
+
+                <div class="price">
+                  <span class="currency" aria-hidden="true">$</span>
+                  <span class="amount">39</span>
+                  <span class="period">/mo</span>
+                </div>
+              </div>
+
+              <ul class="features">
+                <li>Everything in Pro</li>
+                <li>5 team seats</li>
+                <li>Shared libraries</li>
+                <li>Team analytics</li>
+                <li>Onboarding support</li>
+              </ul>
+
+              <a class="btn" href="#" aria-label="Choose Team plan">Choose Team</a>
+              <p class="fineprint">Ideal for collaboration</p>
+            </article>
+          </div>
+
+          <footer class="section-footer">
+            <p>
+              Need something custom? <a href="#" class="link">Contact sales</a>.
+            </p>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© 2026 Your Name. Built with HTML & CSS.</small>
+      </div>
+    </footer>
+  </body>
+</html>
